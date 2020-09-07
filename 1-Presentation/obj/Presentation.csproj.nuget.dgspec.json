@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\1-Presentation\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -25,6 +28,12 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj"
+              },
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj"
+              },
               "C:\\Users\\Joao\\Desktop\\Ecommerce\\4-Infrastructure\\Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\4-Infrastructure\\Infrastructure.csproj"
               },
@@ -45,23 +54,31 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             }
           },
           "imports": [
@@ -86,6 +103,66 @@
         }
       }
     },
+    "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -95,6 +172,9 @@
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -149,6 +229,9 @@
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\4-Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -181,15 +264,19 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
@@ -220,6 +307,9 @@
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -245,11 +335,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [

@@ -9,6 +9,6 @@ namespace Application.Interfaces
         Task Update(T Objeto);
         Task Delete(T Objeto);
         Task<T> GetEntityById(int Id);
-        Task<List<T>> List(T Objeto);
+        Task<List<T>> List();
     }
 }

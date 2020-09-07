@@ -1,14 +1,18 @@
 using Entities.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Configuration
 {
-    public class ContextBase : IdentityDbContext<ApplicationUser>
+    public class ContextBase : IdentityDbContext<IdentityUser>
     {
+        public ContextBase() { }
         public ContextBase(DbContextOptions<ContextBase> options) : base(options) { }
 
         public DbSet<Product> Product { get; set; }
+        public DbSet<UserOrder> UserOrder { get; set; }
+        public DbSet<IdentityUser> User { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -19,9 +23,14 @@ namespace Infrastructure.Configuration
             }
         }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<IdentityUser>().ToTable("AspNetUsers").HasKey(t => t.Id);
+            base.OnModelCreating(builder);
+        }
         private string GetConnectionString()
         {
-            var conStr = "Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;";
+            var conStr = "Server=localhost\\SQLEXPRESS;Database=EcommerceDB;Trusted_Connection=True;";
             return conStr;
         }
 

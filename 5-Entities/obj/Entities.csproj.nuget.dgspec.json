@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -38,11 +41,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [

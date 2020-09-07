@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {}
+    "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {
+    "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\obj\\",
+        "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\2-Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -25,11 +28,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj"
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj"
               },
-              "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj"
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj"
               }
             }
           }
@@ -61,15 +64,18 @@
         }
       }
     },
-    "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
+    "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\obj\\",
+        "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\3-Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -82,8 +88,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj"
+              "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj"
               }
             }
           }
@@ -115,15 +121,18 @@
         }
       }
     },
-    "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
+    "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Joao\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\obj\\",
+        "outputPath": "C:\\Users\\Joao\\Desktop\\Ecommerce\\5-Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -149,11 +158,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             }
           },
           "imports": [

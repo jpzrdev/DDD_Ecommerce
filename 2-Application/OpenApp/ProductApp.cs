@@ -41,9 +41,9 @@ namespace Application.OpenApp
             return await _IProduct.GetEntityById(id);
         }
 
-        public async Task<List<Product>> List(Product product)
+        public async Task<List<Product>> List()
         {
-            return await _IProduct.List(product);
+            return await _IProduct.List();
         }
 
         public async Task Update(Product product)

@@ -13,6 +13,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Infrastructure.Configuration;
+using Domain.Interfaces.Generics;
+using Infrastructure.Repository.Generics;
+using Infrastructure.Repository.Repositories;
+using Domain.Interfaces.ProductInterface;
+using Application.OpenApp;
+using Application.Interfaces;
+using Domain.Services;
+using Domain.Interfaces.ServicesInterface;
 
 namespace Presentation
 {
@@ -35,6 +43,15 @@ namespace Presentation
                 .AddEntityFrameworkStores<ContextBase>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddSingleton(typeof(IGeneric<>), typeof(RepositoryGenerics<>));
+            services.AddSingleton<IProduct, RepositoryProduct>();
+
+            services.AddSingleton<IProductApp, ProductApp>();
+
+            services.AddSingleton<IServiceProduct, ServiceProduct>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,7 +68,7 @@ namespace Presentation
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
