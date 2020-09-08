@@ -30,7 +30,8 @@ namespace Infrastructure.Configuration
         }
         private string GetConnectionString()
         {
-            var conStr = "Server=localhost\\SQLEXPRESS;Database=EcommerceDB;Trusted_Connection=True;";
+            // var conStr = "Server=localhost\\SQLEXPRESS;Database=EcommerceDB;Trusted_Connection=True;providerName=System.Data.SqlClient";
+            var conStr = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=EcommerceDB;Trusted_Connection=True;";
             return conStr;
         }
 

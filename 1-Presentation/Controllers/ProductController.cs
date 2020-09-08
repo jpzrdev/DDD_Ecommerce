@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Entities.Entities;
 using Infrastructure.Configuration;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Presentation.Controllers
 {
+
+    [Authorize]
     public class ProductController : Controller
     {
         private readonly ContextBase _context;

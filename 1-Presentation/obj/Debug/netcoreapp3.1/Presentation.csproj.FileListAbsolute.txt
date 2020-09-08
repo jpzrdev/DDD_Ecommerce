@@ -193,3 +193,7 @@ C:\Users\Joao\Desktop\Ecommerce\1-Presentation\bin\Debug\netcoreapp3.1\ru\Micros
 C:\Users\Joao\Desktop\Ecommerce\1-Presentation\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Joao\Desktop\Ecommerce\1-Presentation\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Joao\Desktop\Ecommerce\1-Presentation\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Joao\Desktop\Ecommerce\1-Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
+C:\Users\Joao\Desktop\Ecommerce\1-Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Product\Delete.cshtml.g.cs
+C:\Users\Joao\Desktop\Ecommerce\1-Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Product\Details.cshtml.g.cs
+C:\Users\Joao\Desktop\Ecommerce\1-Presentation\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs
